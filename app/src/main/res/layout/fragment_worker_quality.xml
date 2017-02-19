@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:padding="20dp"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white">
+
+
+
+        <LinearLayout
+            android:padding="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/good_programmer_text"
+                android:text="Good Programer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:checked="true"
+                android:layout_marginTop="5dp"
+                android:id="@+id/good_programmer"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/good_designer_text"
+                android:text="Good Designer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:checked="true"
+                android:layout_marginTop="5dp"
+                android:id="@+id/good_designer"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/good_marketing_text"
+                android:text="Good Marketing Specialist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:checked="true"
+                android:layout_marginTop="5dp"
+                android:id="@+id/good_marketing"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>
