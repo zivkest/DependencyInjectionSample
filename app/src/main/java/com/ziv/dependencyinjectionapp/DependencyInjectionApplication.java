@@ -6,7 +6,7 @@ import com.ziv.dependencyinjectionapp.dependencyInjection.AndroidModule;
 import com.ziv.dependencyinjectionapp.dependencyInjection.AppMakersModule;
 import com.ziv.dependencyinjectionapp.dependencyInjection.ApplicationComponent;
 import com.ziv.dependencyinjectionapp.dependencyInjection.DaggerApplicationComponent;
-import com.ziv.dependencyinjectionapp.dependencyInjection.RequirmentsDocModule;
+import com.ziv.dependencyinjectionapp.dependencyInjection.RequirementsDocModule;
 import com.ziv.dependencyinjectionapp.settings.SettingsComponent;
 import com.ziv.dependencyinjectionapp.settings.SettingsModule;
 
@@ -21,7 +21,7 @@ public class DependencyInjectionApplication extends Application
         super.onCreate();
         mComponent = DaggerApplicationComponent.builder()
                 .appMakersModule(new AppMakersModule())
-                .requirmentsDocModule(new RequirmentsDocModule())
+                .requirmentsDocModule(new RequirementsDocModule())
                 .androidModule(new AndroidModule(this)).build();
     }
 

@@ -8,7 +8,7 @@ import dagger.Module;
 import dagger.Provides;
 
 @Module
-public class RequirmentsDocModule
+public class RequirementsDocModule
 {
 
     // Using this annotation i can make sure that if someone requires a string with the "Named" annotation

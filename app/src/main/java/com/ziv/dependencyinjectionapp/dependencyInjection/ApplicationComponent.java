@@ -8,13 +8,17 @@ import com.ziv.dependencyinjectionapp.example_dependency_injection_using_dagger.
 import com.ziv.dependencyinjectionapp.settings.SettingsComponent;
 import com.ziv.dependencyinjectionapp.settings.SettingsModule;
 
+import javax.inject.Named;
+
+import dagger.BindsInstance;
 import dagger.Component;
 
 // refer to the component as a singleton as so not to create new ones
 
-@Component(modules = {AppMakersModule.class, RequirmentsDocModule.class, AndroidModule.class})
+@Component(modules = {AppMakersModule.class, RequirementsDocModule.class, AndroidModule.class})
 public interface ApplicationComponent
 {
+
     void inject(StartUp target);
     void inject(SomeFreeLancer target);
     void inject(Falcore target);
@@ -22,4 +26,5 @@ public interface ApplicationComponent
     void inject(ZemingoGroup target);
 
     SettingsComponent plus(SettingsModule module);
+
 }

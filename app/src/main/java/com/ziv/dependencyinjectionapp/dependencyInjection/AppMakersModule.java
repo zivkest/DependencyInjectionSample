@@ -16,11 +16,13 @@ import javax.inject.Named;
 
 import dagger.Module;
 import dagger.Provides;
+import dagger.Reusable;
 
 @Module
 public class AppMakersModule
 {
 
+    @Reusable
     @Provides
     IAppMaker provideAppMaker()
     {
