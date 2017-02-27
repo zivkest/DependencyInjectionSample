@@ -26,6 +26,8 @@ public final class Constants
             public static final String ENGINEERING_DOC = "ENGINEERING_DOC";
             public static final String DESIGN_SPEC = "DESIGN_SPEC";
             public static final String MARKETING_DOC = "MARKETING_DOC";
+            public static final String FORECAST_API_KEY = "FORECAST_API_KEY";
+
         }
     }
 }
